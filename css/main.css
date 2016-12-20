@@ -1,0 +1,63 @@
+/**** Navegación****/
+
+header{
+    
+    text-align: center;
+    background: url("http://images.all-free-download.com/images/graphiclarge/flower_pattern_background_310273.jpg");
+    background-size: cover;
+    
+    
+    padding: 10px;
+    
+}
+
+img{
+    width: 50%;
+    margin: 40px 0px 0px 0px;
+    border:7px solid yellow;
+    border-radius:30px;
+}
+/****ESTE ES EL COLOR DE LAS LETRAS DEL MENU****/
+a{ 
+    color:darkgreen;
+    padding: 0px 12px 0px 12px;    
+    
+}
+    
+h1{
+    font-size: 35
+        
+}
+ul{background: white;
+    padding: 15px;
+}
+li{ 
+    list-style:none;
+    display:inline;
+    
+    
+    
+    
+     }
+
+article{
+    max-width:500px;
+    margin:0 auto;
+    padding:20px;
+    text-align: justify;
+}
+
+@media (max-width:500px){
+    h1 {
+        font-size:20px; 
+        
+    
+    }
+    
+li{
+    
+    display:block;
+}
+    
+    
+}
